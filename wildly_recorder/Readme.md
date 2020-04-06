@@ -4,6 +4,7 @@ WORKING DETAILS:
 * Device can record audio at different sample rate(8,16,32,44.1 and 48khz).
 * Device creates a new directory every day in the sdcard and writes file inside it.
 * Device can be configured by changing the OPERATING_MODE MACRO in device.h file.
+* RTC is powered by a coin cell battery connected to vbat pin of the teensy board.
 
 * Directory name format : DEVYYYYMMDD_HH (Eg: DEV:20200211_11)
   Filename format 	: AYYYYMMDD_HHMMSS.wav (Eg: A20200211_112259.wav)
